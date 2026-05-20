@@ -2,8 +2,8 @@ import fitz  # PyMuPDF
 from PIL import Image
 import io
 
-pdf_path = "kc flyer April.pdf"
-output_path = "combined4.png"
+pdf_path = "New Uniform Management System Flyer.pdf"
+output_path = "combined5.png"
 
 doc = fitz.open(pdf_path)
 images = []
